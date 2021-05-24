@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive Layout</title>
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+  overflow: scroll;
+}
+
+
+.row {
+  width: 100%;
+}
+
+
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3{
+    float: left;
+    border: 5px solid black;
+    margin-right: 100px;
+    background-color: gray;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+    border: 5px solid black;
+    background-color: gray;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+
+  @media (min-width: 767px) {
+  .col-lg-1, .col-lg-2, .col-lg-3{
+    float: left;
+    border: 5px solid black;
+    background-color: gray;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+
+</style>
+</head>
+<body>
+<h1 style = "text-align: center;">Clothes</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-6"><h2>Pants</h2><p>Trousers (Dutch broek), trousers (borrowed from the Turkic languages ​​[1]), or trousers (Old Russian parts [2]) are a piece of outerwear that covers the lower body and both legs separately with the help of trousers.
+
+In the classic version, the trousers reach the bottom of the ankles or the top of the foot. Traditionally worn at the waist, although many modern models have a low fit and are worn on the hips. A trouser belt or suspenders can be used to secure the trousers to the torso.</p></div>
+  <div class="col-lg-3 col-md-6"><h2>Boots</h2><p>Boots - shoes that protect the ankle joint, unlike ankle boots, have a system of fixing the legs in the form of laces or belts, more often for men than for women. Classic boots are made of leather and tied with laces. However, variations in shape, material and method of tying are possible. Modern boots often use a zipper instead of (or with) laces.</p></div>
+  <div class="col-lg-3 col-md-6"><h2>Hoodie</h2><p>Hoodie [1] (English hoodie from hood - "hood") - a sweatshirt (sweater) made of soft cotton jersey or fleece with a hood, as well as hidden side pockets.
+
+The hoodie should not be confused with the sweatshirt - the latter has a front closure and no hood [2] [3]. Also, the hoodie is similar to the anorak - a light jacket with a hood, also worn over the head; like anorak, it can have large patch pockets - "kenguryatniki" in the front and drawstring on the hood.</p></div>
+</div>
+
+</body>
+</html>
